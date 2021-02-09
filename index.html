@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script src="index.js"></script>
+		<div class=title>GeeksforGeeks Calculator</div>
+		<table border="1">
+			<tr>
+				<td colspan="3"><input type="text" id="result" /></td>
+				<td><input type="button" value="c" onclick="clr()" /> </td>
+			</tr>
+			<tr>
+		
+				<td><input type="button" value="1" onclick="calc('1')" /> </td>
+				<td><input type="button" value="2" onclick="calc('2')" /> </td>
+				<td><input type="button" value="3" onclick="calc('3')" /> </td>
+				<td><input type="button" value="/" onclick="calc('/')" /> </td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="calc('4')" /> </td>
+				<td><input type="button" value="5" onclick="calc('5')" /> </td>
+				<td><input type="button" value="6" onclick="calc('6')" /> </td>
+				<td><input type="button" value="-" onclick="calc('-')" /> </td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" onclick="calc('7')" /> </td>
+				<td><input type="button" value="8" onclick="calc('8')" /> </td>
+				<td><input type="button" value="9" onclick="calc('9')" /> </td>
+				<td><input type="button" value="+" onclick="calc('+')" /> </td>
+			</tr>
+			<tr>
+				<td><input type="button" value="." onclick="calc('.')" /> </td>
+				<td><input type="button" value="0" onclick="calc('0')" /> </td>
+				<!-- solve function call function solve to evaluate value -->
+				<td><input type="button" value="=" onclick="solve()" /> </td>
+				<td><input type="button" value="*" onclick="calc('*')" /> </td>
+			</tr>
+		</table>
+	</body>
+</html>
